@@ -1,4 +1,5 @@
 import java.util.LinkedList;
+import java.util.PriorityQueue;
 import java.util.Queue;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
@@ -6,7 +7,7 @@ import java.util.Queue;
 public class Main {
     public static void main(String[] args) {
 
-        Queue<Double> queue = new LinkedList<>();
+        Queue<Double> queue = new PriorityQueue<>();
 
         queue.offer(3.0);
         queue.offer(2.5);
