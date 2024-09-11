@@ -5,7 +5,7 @@ import java.util.*;
 public class Main {
     public static void main(String[] args) {
 
-        Queue<String> queue = new PriorityQueue<>();
+        Queue<String> queue = new PriorityQueue<>(Collections.reverseOrder());
 
         queue.offer("B");
         queue.offer("C");
